@@ -73,9 +73,13 @@ header {
 .plomo {
   background:#111111;
   border-radius: 10px;
-  padding: 100px;
+  padding:  100px;
 }
 
+.botoncv {
+  margin-bottom: 55px;
+  margin-top:10px
+}
 
 a{
   font-size: 17px;
@@ -85,7 +89,13 @@ a{
   text-decoration: none;
   border-radius: 10px;
   align-items: center;
-  margin-right: 40px
+  margin-right: 40px;
+
+
+}
+
+.foto {
+  margin: 20px
 }
 
 .columna {
@@ -226,6 +236,7 @@ align-items: center;
   text-decoration: underline;
 }
 
+
 /**.btnfinal:hover {
   cursor: pointer;
   transform: scale(1.5);
@@ -242,4 +253,139 @@ align-items: center;
   text-decoration: underline;
 }
 
-.
+/**WSSP**/
+
+.wssp {
+  position: fixed;
+  top: 85%;
+  right:15px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media (max-width: 480px) {
+nav {
+  position: absolute;
+  top: 65px;
+  left: 0px;
+  background: #C70039;
+  width: 100%;
+  opacity: 70%
+
+}
+ul {
+  flex-direction: column;
+  display: flex;
+}
+
+.menu-icon {
+  display: block;
+  width: 35px
+}
+
+.titular {
+  margin-top: 150px
+}
+
+h1 {
+  font-size: 49px
+}
+h2 {
+  font-size: 19px;
+  margin-top: 40px;
+}
+
+.columna {
+  flex-direction: column;
+  display: flex;
+  margin-bottom: -170px;
+  padding: 109px 76px 100px 300px;
+}
+
+.columna2 {
+  flex-direction: column;
+  display: flex;
+  margin: 300px 100px 200 100px;
+  padding: 50px 191px 100px 195px;
+}
+
+.contenedor_sobremí {
+  flex-direction: column;
+  margin-top: -70px;
+  margin-left: -215px;
+  background: none
+
+}
+
+.boton {
+  flex-direction: column;
+  margin: 70px;
+  align-content: center;
+
+}
+
+.botoncv {
+  margin-bottom: 76px;
+  margin-top: 44px;
+  margin-left: 20px;
+  width: 200%
+}
+
+.botonportafolio {
+  margin-bottom: 76px;
+  margin-top: 44px;
+  width: 200%;
+  margin-left: -5px
+}
+
+.contenedor_habilidades {
+  padding: 13px;
+}
+
+.contenedor_habilidades1 {
+  display: flex;
+  flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contenedor_habilidades2 {
+  display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+
+.columna2 {
+  display: flex;
+      flex-direction: row;
+      align-items: center;
+      flex-wrap: nowrap;
+      align-content: stretch;
+      justify-content: center;
+      margin-top: -58px
+}
+
+.Titulo2 {
+  margin-top: -111px
+}
+
+.autor {
+  margin-top: 126px;
+  display: flex;
+    flex-direction: column;
+}
+
+.btnfinal {
+  display: flex;
+  margin-right: -9px;
+}
+
+
+
+}
