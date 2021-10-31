@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 /* CUERPO DE TODA LA PÁGINA */
 body {
   font-family: 'Poppins';
@@ -389,3 +390,396 @@ h2 {
 
 
 }
+=======
+/* CUERPO DE TODA LA PÁGINA */
+body {
+  font-family: 'Poppins';
+  background: black;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  font-size: 20px;
+  font-weight:lighter;
+  color: white;
+}
+
+li {
+  list-style: none;
+  margin-right: 25px;
+  color: white;
+  font-weight: normal;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  display: flex;
+}
+
+/* CABECERA H DE TEXTO */
+
+h1 {
+  font-size: 60px;
+  margin: 0;
+  color: white;
+  font-weight: bolder;
+}
+
+h2 {
+  font-size: 30px;
+  margin: 0;
+  color: white;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 0;
+  color: white;
+}
+
+/* ARRANCA TITULAR */
+
+.titular {
+  text-align: center;
+  margin-top: 200px;
+}
+
+header {
+  background: url(Fondo1.jpg);
+  height: 80vh;
+  background-size: cover
+}
+
+.contenedor {
+  max-width: 1280px;
+  width: 97%;
+  margin: auto;
+}
+
+/* ARRANCA SECCIÓN SOBRE MÍ */
+.plomo {
+  background:#111111;
+  border-radius: 10px;
+  padding:  100px;
+}
+
+.botoncv {
+  margin-bottom: 55px;
+  margin-top:10px
+}
+
+a{
+  font-size: 17px;
+  background:#C70039;
+  padding: 20px 30px 20px 30px;
+  color: white;
+  text-decoration: none;
+  border-radius: 10px;
+  align-items: center;
+  margin-right: 40px;
+
+
+}
+
+.foto {
+  margin: 20px
+}
+
+.columna {
+  padding: 100px 400px 100px 300px
+}
+
+.boton {
+  margin-top: 60px
+}
+
+.contenedor_sobremí {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  align-items: center;
+  width: 95%;
+}
+
+/* ARRANCA SECCIÓN Habilidades*/
+
+.titulo {
+  text-align: center;
+
+}
+
+.fila1 {
+  justify-content: space-between;
+  display: flex;
+}
+
+.contenedor_habilidades {
+  padding: 100px 100px 100px 100px;
+}
+
+.contenedor_habilidades1 {
+  display: flex;
+  justify-content: center;
+  margin: 70px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.figma {
+  text-align: center;
+}
+
+.html {
+  text-align: center;
+}
+
+.css {
+  text-align: center;
+}
+
+.wordpress {
+  text-align: center;
+}
+
+.photoshop {
+  text-align: center;
+}
+
+.illustrator {
+  text-align: center;
+}
+
+.premiere {
+  text-align: center;
+}
+
+.aftereffects {
+text-align: center;
+}
+
+.contenedor_habilidades2 {
+  display: flex;
+  justify-content: center;
+  margin: 70px;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/*Contáctame*/
+
+.Contactame {
+  padding-top: 150px;
+  padding-bottom: 200px;
+  text-align: center;
+  background: url(fondofinal.jpg);
+  height: 20vh;
+  background-size:cover;
+  border-radius: 10px
+}
+
+.columna2 {
+  padding: 50px 200px 10px 200px
+}
+
+.Titulo2 {
+padding-bottom: 200px
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+}
+
+.linkedin {
+  margin: 10px
+}
+
+.facebook {
+  margin: 10px
+}
+
+.instagram {
+  margin: 10px
+}
+
+/**AUTOR**/
+
+.madeleine h4 {
+  color: white;
+  font-weight: lighter;
+}
+
+.autor {
+  margin: 300px 100px 200px 100px;
+  text-align: center;
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.btnfinal {
+  background: none;
+  color:#C70039;
+  text-decoration: underline;
+}
+
+
+/**.btnfinal:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+  transition: all 2s;
+}**/
+
+/**MENU SUPERIOR**/
+.menulink {
+  margin: 0;
+  padding: 0;
+  background: none;
+}
+.menulink:hover {
+  text-decoration: underline;
+}
+
+/**WSSP**/
+
+.wssp {
+  position: fixed;
+  top: 85%;
+  right:15px;
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media (max-width: 480px) {
+nav {
+  position: absolute;
+  top: 65px;
+  left: 0px;
+  background: #C70039;
+  width: 100%;
+  opacity: 70%
+
+}
+ul {
+  flex-direction: column;
+  display: flex;
+}
+
+.menu-icon {
+  display: block;
+  width: 35px
+}
+
+.titular {
+  margin-top: 150px
+}
+
+h1 {
+  font-size: 49px
+}
+h2 {
+  font-size: 19px;
+  margin-top: 40px;
+}
+
+.columna {
+  flex-direction: column;
+  display: flex;
+  margin-bottom: -170px;
+  padding: 109px 76px 100px 300px;
+}
+
+.columna2 {
+  flex-direction: column;
+  display: flex;
+  margin: 300px 100px 200 100px;
+  padding: 50px 191px 100px 195px;
+}
+
+.contenedor_sobremí {
+  flex-direction: column;
+  margin-top: -70px;
+  margin-left: -215px;
+  background: none
+
+}
+
+.boton {
+  flex-direction: column;
+  margin: 70px;
+  align-content: center;
+
+}
+
+.botoncv {
+  margin-bottom: 76px;
+  margin-top: 44px;
+  margin-left: 20px;
+  width: 200%
+}
+
+.botonportafolio {
+  margin-bottom: 76px;
+  margin-top: 44px;
+  width: 200%;
+  margin-left: -5px
+}
+
+.contenedor_habilidades {
+  padding: 13px;
+}
+
+.contenedor_habilidades1 {
+  display: flex;
+  flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contenedor_habilidades2 {
+  display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-content: center;
+}
+
+.columna2 {
+  display: flex;
+      flex-direction: row;
+      align-items: center;
+      flex-wrap: nowrap;
+      align-content: stretch;
+      justify-content: center;
+      margin-top: -58px
+}
+
+.Titulo2 {
+  margin-top: -111px
+}
+
+.autor {
+  margin-top: 126px;
+  display: flex;
+    flex-direction: column;
+}
+
+.btnfinal {
+  display: flex;
+  margin-right: -9px;
+}
+
+
+
+}
+>>>>>>> a18a379c1906cd8ae14792fc80415776c03f209d
